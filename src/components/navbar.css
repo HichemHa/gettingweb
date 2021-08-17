@@ -1,0 +1,46 @@
+.topbar-fix-left{
+    display: flex;
+    width: 239px;
+    justify-content: space-between;
+}
+
+.topbar-fix{
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d3557;
+    color: white;
+}
+.topbar-fix p{
+    margin: 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 48%;
+    
+}
+.nav h1{cursor: pointer; margin: 5px;}
+.nav-right{
+    display: none;
+    width: 450px;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.nav-right a{
+    text-decoration: none;
+    color: white;
+}
+.nav:hover{
+    margin: 0;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #457b9d;
+}
+.nav:hover .nav-right{
+    display: flex;
+  
+}
